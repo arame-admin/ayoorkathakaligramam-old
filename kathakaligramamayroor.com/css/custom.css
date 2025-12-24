@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidecont{
+	
+	display:none;
+	}
+.showcont{
+	
+	display:block;
+	}
+.container{
+    margin:auto;
+	/*padding-top:10px;
+	padding-bottom:20px;*/}
+
+button{ border:none; cursor:pointer; outline:none; } 
+button #playpausebtn{ background:url(images/pause.png) no-repeat; width:32px; height:34px;padding:5px; }
+ button #mutebtn{ background:url(images/speaker.png) no-repeat; width:5px; height:14px;padding:5px; }
+backclor{
+	background-color:#00F;
+	
+	}
+	
+		.bg{
+	background-image:url(../css/bgg.png);
+	}
+	
+.im{	
+	width:150px;
+	height:100px;
+	margin-left:10px;
+	display:inline-block;
+	box-shadow: 3px 3px 29px #000000;
+	}	
+
+#myWorkContent{
+    width:900px;
+    height:250px;
+    border: 1px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}		
+		
+		
+/*	@media (min-width: 200px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#000;
+		width:100%;
+		height:70px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:14px;
+		text-align:left;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:50px;
+		margin-left: 35px;
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:50px;
+		
+		}
+		
+	}
+		
+@media (min-width: 500px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#000;
+		width:100%;
+		height:100px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:24px;
+		text-align:left;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:70px;
+		margin-left: 235px;
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:70px;
+		
+		}
+}
+
+@media (min-width: 768px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:170px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:39px;
+		text-align:left;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		
+				.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:100px;
+		}
+}
+@media (min-width: 992px) {
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:54px;
+		text-align:center;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:125px;
+		margin-left: 235px
+		
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:125px;
+				}
+				.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:135px;
+		}
+				
+}*/
+/*@media (min-width: 1250px) {*/
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:45px;
+		text-align:left;
+		padding-top:20px;
+		margin-left:235px;
+		color:#fff;
+		}
+		.mainone p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:32px;
+		text-align:left;
+		
+		
+		color:#fff;
+	}
+	.maintwo p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:32px;
+		padding:0px;
+		text-align:left;
+		line-height:0px;
+		
+		color:#fff;
+	}
+	.mainthree p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:10px;
+		text-align:left;
+		
+		padding:0;
+		padding-top:10px;
+		color:#fff;
+	}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:150px;
+		margin-left: 35px;
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:150px;
+		
+		}
+		
+		.mainhead{
+		display:block;
+		background-color:#000;
+		width:100%;
+		height:150px;
+		}
+
+
+ .colimage img{
+	float:left;
+	width:150px;
+	}
+.thumbnail h3{
+	color:#F00;
+	text-align:center;
+	}
+	
+.thumbnail .knyimg img{
+	float:right;
+	}	
+
+/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	@media (min-width: 200px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:70px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:14px;
+		text-align:center;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:50px;
+		margin-left: 235px;
+		
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:50px;
+		
+		}
+		
+	}
+		
+@media (min-width: 500px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:100px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:24px;
+		text-align:center;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:70px;
+		margin-left: 235px;
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:70px;
+		
+		}
+}
+
+@media (min-width: 768px) {
+	
+	.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:170px;
+		}
+	
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:39px;
+		text-align:center;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		
+				.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:100px;
+		}
+}
+@media (min-width: 992px) {
+  .maintitle p{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:54px;
+		text-align:center;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+		.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:125px;
+		margin-left: 235px;
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:125px;
+				}
+				.mainhead{
+		display:block;
+		background-color:#0992de;
+		width:100%;
+		height:135px;
+		}
+				
+}
+@media (min-width: 1250px) {
+    .maintitle p, {
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:30px;
+		text-align:left;
+		margin:0 0;
+		padding:0;
+		padding-top:20px;
+		color:#fff;
+		}
+	
+	.logoone img{
+		display:block;
+		float:left;
+		padding-top:11px;
+		padding-left:40px;
+		width:150px;
+		margin-left: 235px;
+		
+		}
+		.logolast img{
+		display:block;
+		float:right;
+		margin:0 0;
+		padding-top:10px;
+		padding-right:10px;
+		width:150px;
+		
+		}
+		
+		.mainhead{
+		display:block;
+		background-color:#000;
+		width:100%;
+		height:170px;
+		}
+}	
+}
+*/

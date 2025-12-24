@@ -1,0 +1,58 @@
+ .gallery-row{	
+	width:844px;  margin:0 2px; 	
+	}
+.gallery-row ul{	
+	margin:0; list-style:none; padding:0; float:left;
+	}
+.gallery-row ul li{
+	width:208px; display:block; float:left; margin:0 0 0 2px;	
+	}
+.gallery-row ul li .gallery-thumb{
+	width:190px; background:url(../images/gallery-thumb-bg.jpg) no-repeat left top; float:left; height:151px; padding:19px;
+	}
+.gallery-row ul li .gallery-thumb-description{
+	width:200px; float:left; margin:3px 3px 3px 3px;	padding:15px 8px 15px 8px;
+	}
+.gallery-row ul li .gallery-thumb-description .gallery-thumb-heading{
+	width:200px; align float:right; color:#9d7e3d; font-weight:bold; font-size:16px; text-align:center;
+	}
+.gallery-row ul li .gallery-thumb-description .gallery-thumb-heading a{
+	color:#000; text-decoration:none;
+	}
+.gallery-row ul li .gallery-thumb-description .gallery-thumb-heading a:hover{
+	color:#000; text-decoration:underline;
+	}
+.gallery-row ul li .gallery-thumb-description .gallery-thumb-detail{
+	width:200px; float:left; margin:3px 0 0 0; color:#9d7e3d; 	
+	}
+.gallery-row ul li .gallery-thumb-description .gallery-thumb-detail p{
+	margin:0; line-height:15px;	
+	}
+.select-category{
+	width:100%; float:left; height:40px; padding:10px 0 0 0;	
+	}
+.select-category-label{
+	width:70px; text-align:right; font-size:12px; color:#000; line-height:30px; margin:0 10px 0 0; float:left;
+	}
+.select-category-box{
+	width:182px; float:left; text-align:left; padding:5px 0 0 0;
+	}		
+.category-select{
+	width:182px; float:left;	
+	}
+.tdborder label, .tdborder span{	
+	line-height:27px;
+	}
+.Gandulf {
+	height:100px;
+	width:100px;
+		overflow:auto;
+		
+		}
+#myWorkContent{
+    width:940px;
+    height:800px;
+    border: 1px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}		
